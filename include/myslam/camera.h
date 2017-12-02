@@ -11,7 +11,7 @@ namespace myslam
 class Camera
 {
 public:
-    typedef std::shared_ptr<Camera> Ptr;
+    typedef std::shared_ptr<Camera> Ptr; // 将智能指针定义成Camera的指针类型
     float fx_, fy_, cx_, cy_, depth_scale_; // camera intrinsics
 
     Camera();
